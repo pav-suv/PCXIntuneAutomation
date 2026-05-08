@@ -1,0 +1,10 @@
+function Remove-PCXMgUser{
+    param (
+        # Parameter help description
+        [Parameter(Mandatory=$true)]
+        $UserId
+        
+    )
+ Remove-MgUser -UserId $UserId 
+}
+Remove-PCXMgUser -UserId "35fef7f1-410c-4aab-9f1e-3fefaaf08a8a "
