@@ -2,7 +2,6 @@ function Get-PCXMgUser{
     param (
         # Parameter help description
         [Parameter(Mandatory=$true)]
-        [string]$Displayname,
         $UserId
         
     )
